@@ -111,10 +111,13 @@ flowchart LR
 ```
 
 1. Open **Settings** in the Bob panel and select the **MCP** tab.
-2. Click the **+** icon next to the search box. The **Add MCP Server** window opens.
-3. Under **Configuration Scope**, choose your project folder, **ibm_bob_workshop** (not **Global (All Workspaces)**).
-4. Click **Open Configuration File**. Bob opens the file `.bob/mcp.json` in your folder.
-5. If the file is empty, or has only `{}` or `"mcpServers": {}`, replace its content with this:
+   <img width="771" height="730" alt="image" src="https://github.com/user-attachments/assets/03e4e88f-c818-4d8d-a3d3-939bd77a922b" />
+3. Click the **+** icon next to the search box. The **Add MCP Server** window opens.
+   <img width="1216" height="645" alt="image" src="https://github.com/user-attachments/assets/6793e2d6-fbf3-4bbc-a4cf-86d58dc1a342" />
+5. Under **Configuration Scope**, choose your project folder, **ibm_bob_workshop** (not **Global (All Workspaces)**).
+   <img width="654" height="277" alt="image" src="https://github.com/user-attachments/assets/a6423814-a2fd-40eb-87f7-3864d7b374e6" />
+7. Click **Open Configuration File**. Bob opens the file `.bob/mcp.json` in your folder.
+8. If the file is empty, or has only `{}` or `"mcpServers": {}`, replace its content with this:
 
 ```json
 {
@@ -153,11 +156,14 @@ Now we check which tools the server gives Bob, and make sure Bob can reach them.
 
 1. Close **Settings** and go back to the **Bob chat**.
 2. At the bottom left of the chat box, check which mode is selected. If it doesn't say **Ask** (for example, it says **Agent**, **Architect** or **Plan**), click it and select **Ask** from the menu.
-3. Copy the prompt below into the chat box and press **Enter**:
+   <img width="998" height="776" alt="image" src="https://github.com/user-attachments/assets/72677193-1b8c-4025-88b2-2c9308b867ba" />
+
+4. Copy the prompt below into the chat box and press **Enter**:
 
 ```
 Which tools does the branch-ops server give you, and what does each one do?
 ```
+  <img width="708" height="377" alt="image" src="https://github.com/user-attachments/assets/20d0485b-1015-4a41-9cfa-43e41f044a2a" />
 
 Bob should list tools such as `list_branches` and a tool to get each branch's sheet.
 
@@ -188,7 +194,9 @@ Use the branch-ops server to list the branches, then get every branch's sheet.
 Save each sheet unchanged as a CSV file in data/raw/, one file per branch.
 ```
 
-Bob will ask for permission for each task. Click **Approve** for all of them.
+Bob will ask for permission for each task. Click **Approve for task** for all of them.
+<img width="406" height="182" alt="image" src="https://github.com/user-attachments/assets/5588958e-2908-4303-9a9f-624d68aa4903" />
+
 
 When it's done, look in the file explorer on the left. Bob has created a folder called **`data`**, and inside it a folder called **`raw`**. Open any file in the `raw` folder. This is the data exactly as the branch typed it.
 
@@ -198,6 +206,7 @@ ibm_bob_workshop/
     └── raw/
         └── (one CSV file per branch)
 ```
+<img width="330" height="403" alt="image" src="https://github.com/user-attachments/assets/1c524846-a268-41e1-8a85-7610bed10301" />
 
 ---
 
@@ -233,6 +242,7 @@ ibm_bob_workshop/
     └── rules/
         └── data-rules.md
 ```
+<img width="1451" height="515" alt="image" src="https://github.com/user-attachments/assets/bc97e592-16cf-460c-bd38-e62467672cab" />
 
 4. Paste this content into `data-rules.md` and save it:
 
