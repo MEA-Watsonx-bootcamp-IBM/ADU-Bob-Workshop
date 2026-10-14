@@ -1,5 +1,5 @@
   <p align="center">
-  <img height="60" alt="Abu Dhabi University" src="https://github.com/user-attachments/assets/74fc7801-e238-4900-93c0-0cfc77760ce6" align="middle" />
+  <img height="90" alt="Abu Dhabi University" src="https://github.com/user-attachments/assets/74fc7801-e238-4900-93c0-0cfc77760ce6" align="middle" />
   &nbsp;&nbsp;&nbsp;<b>×</b>&nbsp;&nbsp;&nbsp;
   <img height="60" alt="IBM" src="https://github.com/user-attachments/assets/bfbe232d-59c3-42c0-b3f9-e9455cef8540" align="middle" />
 </p>
