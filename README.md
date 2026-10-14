@@ -1,8 +1,10 @@
-<p align="center">
-  <img src="images/adu-logo.png" alt="Abu Dhabi University" height="80">
+  <p align="center">
+  <img height="60" alt="Abu Dhabi University" src="https://github.com/user-attachments/assets/74fc7801-e238-4900-93c0-0cfc77760ce6" align="middle" />
   &nbsp;&nbsp;&nbsp;<b>×</b>&nbsp;&nbsp;&nbsp;
-  <img src="images/ibm-logo.png" alt="IBM" height="60">
+  <img height="60" alt="IBM" src="https://github.com/user-attachments/assets/bfbe232d-59c3-42c0-b3f9-e9455cef8540" align="middle" />
 </p>
+
+
 
 <h3 align="center">Software Engineering Day 6.0 at Abu Dhabi University</h3>
 
@@ -333,7 +335,7 @@ Now we build a one-page website that branch managers can open in their browser t
 Plan a one-page website for branch managers using data/clean/loan_applications.csv.
 Show the key numbers, approval rate by branch, applications per month, and decision
 times by channel. Show how many rows are still waiting for review, so managers know
-the data isn't complete. It must open by double-clicking the HTML file, with no server.
+the data isn't complete. It must open by double-clicking the HTML file, with no server. Give the link to open the website once its done.
 ```
 
 > **Want more?** You can add your own ideas to the end of this prompt before you send it. For example: *"Add a filter by loan type"*, *"Use blue and gold colours"* or *"Add a dark mode button"*.
