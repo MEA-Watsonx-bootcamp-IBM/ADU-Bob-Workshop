@@ -58,7 +58,7 @@ Your work is checked in two ways:
 
 ## 4. Prerequisites
 
-- **IBM Bob** installed on your laptop. If you don't have it yet, download it from [bob.ibm.com/download](https://bob.ibm.com/download) and sign up using your **student email ID**.
+- **IBM Bob** installed on your laptop. If you don't have it yet, download it from [ibm.biz/Bob-CR-UE](https://ibm.biz/Bob-CR-UE) and sign up using your **student email ID**.
 - **Python 3.10 or newer**, to run the cleaning script and tests Bob writes.
 - An **internet connection**.
 
