@@ -46,17 +46,8 @@ Bob has different **modes**, like different hats it can wear:
 
 This is how the pieces in this lab connect:
 
-```mermaid
-flowchart LR
-    You([You]) -->|chat in plain English| Bob[IBM Bob<br/>in your editor]
-    Bob -->|reads| Rules[Team rules<br/>.bob/rules/data-rules.md]
-    Bob <-->|asks for data via MCP| MCP[Branch Operations<br/>MCP server]
-    MCP --> Sheets[(Branch loan<br/>sheets)]
-    Bob -->|saves| Raw[data/raw/<br/>original sheets]
-    Raw --> Clean[Cleaning script<br/>+ tests]
-    Clean --> CleanData[data/clean/<br/>clean data + rows to review]
-    CleanData --> Site[Website<br/>dashboard.html]
-```
+<img width="1922" height="818" alt="image" src="https://github.com/user-attachments/assets/71830e02-6edd-47ac-85f8-ab24b25d8316" />
+
 
 ## 3. What Gets Checked
 
@@ -102,15 +93,8 @@ There's nothing to install. You only tell Bob where the server is, in the next s
 
 Here is how Bob talks to the bank's system through the MCP server:
 
-```mermaid
-flowchart LR
-    You([You]) -->|1. Ask a question| Bob[IBM Bob]
-    Bob -->|2. Calls a tool<br/>e.g. get_branch_sheet| MCP[MCP server<br/>the waiter]
-    MCP -->|3. Fetches the data| System[(Bank's system<br/>the kitchen)]
-    System -->|4. Returns the data| MCP
-    MCP -->|5. Hands it back| Bob
-    Bob -->|6. Shows you the answer| You
-```
+<img width="2094" height="751" alt="image" src="https://github.com/user-attachments/assets/8a753f7e-cd6b-4d95-a25f-c2efa1ee6142" />
+
 
 1. Open **Settings** in the Bob panel and select the **MCP** tab.
    <img width="771" height="730" alt="image" src="https://github.com/user-attachments/assets/03e4e88f-c818-4d8d-a3d3-939bd77a922b" />
